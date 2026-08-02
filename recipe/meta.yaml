@@ -1,5 +1,5 @@
 {% set name = "ever-beta" %}
-{% set version = "0.5.6" %}
+{% set version = "0.6.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ever_beta-{{ version }}.tar.gz
-  sha256: aa50e4bc4f88f643d2164b7ec451541f95b26b67092f74e24cc5fde11f88b879
+  sha256: 266803ca0bf2b9a79019ce29f2c3d708f115384b611c7d19f45175ef9d1c4d03
 
 build:
   noarch: python
